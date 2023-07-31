@@ -1,0 +1,25 @@
+/* root pseudo class selector */
+:root {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    /* variables defined with double hypen and once defined in root can be accessed in classes */
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: black;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    /* 16px x 5 = relative units, 16px defined by setting font size in root */
+    margin-left: 5rem;
+    padding: 1rem;
+
+}
