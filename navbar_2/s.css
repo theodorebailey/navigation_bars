@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* set default values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #24252A;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* for header element set display items to flex determining box type element generates, justify content by specifying space between elements along the same axis, and align items center with a padding  */
+header {
+    display: flex;
+    /* push everything right */
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/* target list, hyperlink, buttons 
+set font size, weight, text color, text decoration and font style */
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-links li a:hover {
+    color: #008899;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 139, 1);
+    border: none;
+    border-radius: 54px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 139, 0.8);
+}
