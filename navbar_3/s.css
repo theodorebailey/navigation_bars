@@ -34,36 +34,41 @@ li, a, button {
     margin-left: auto;
 }
 
-/* set order to first */
+/* set order to first in dom */
 .nav {
     order: 1;
 }
 
+/* remove styling from nav-links class elements */
 .nav-links {
     list-style: none;
 }
-
+/* display elements inline with block, provide padding left and right */
 .nav-links li {
     display: inline-block;
     padding: 0px 20px;
 }
-
+/* nav-links list items nth child selecting the first child set padding */
 .nav-links li:nth-child(1) {
     padding: 0 20px 0 0;
 }
 
+/* class navlinks list hyperlink items nested */
 .nav-links li a {
     transition: all 0.3s ease 0s;
 }
 
+/* class hyperlink items list elements with hyperlink value hover effect */
 .nav-links li a:hover {
     color: #008899;
 }
 
+/* class name cta set to second order */
 .cta {
     order: 2;
 }
 
+/* buttong elements set margin left and padding, set a background colour and border style with rounded border radius and set cursor to pointer and give a transition element */
 button {
     margin-left: 20px;
     padding: 9px 25px;
@@ -74,6 +79,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
+/* set hover effect to button to fade alpha colour to indicate interaction */
 button:hover {
     background-color: rgba(0, 136, 139, 0.8);
 }
